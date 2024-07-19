@@ -21,3 +21,4 @@ plt.savefig('PGD_HM_CWRU.pdf', bbox_inches='tight')
 plt.show()
 data[np.diag_indices_from(data)]=0
 print("Average Fooling Rate=\n",np.mean(data,axis=0))
+print("Achyut")
